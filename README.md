@@ -39,6 +39,6 @@ Move the paddle left and right to catch falling shapes and earn points. But be c
 Clone the repo and run:
 
 ```bash
-git clone https://github.com/your-username/shapes-catcher-game.git
+git clone https://github.com/ebrahim-2k11/Catch-me.git
 cd shapes-catcher-game
 python main.py
