@@ -79,5 +79,7 @@ while game_on:
     windo.onkey(paddle.move_left,"Left")     # Left arrow => move paddle left
 
 
+
+
 # Wait for click before closing (when game ends)
 windo.exitonclick()
