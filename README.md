@@ -1,44 +1,29 @@
-# 🐢 Shapes Catcher Game  
+# 🎮 Catch Me Game
 
-A simple arcade game built with **Python Turtle Graphics**.  
-Move the paddle left and right to catch falling shapes and earn points. But be careful – some shapes will reset your score or even end the game!  
-
----
-
-## 🎮 How to Play
-- Use the **Right Arrow →** key to move the paddle right.  
-- Use the **Left Arrow ←** key to move the paddle left.  
-- Catch the falling shapes to score points.  
+A simple **Turtle-based Python game** where you move a paddle to catch falling shapes.  
+Each shape gives you different points, and now the game **saves your high score** across sessions!  
 
 ---
 
-## 🏆 Scoring Rules
-- **🐢 Turtle (non-white):** +5 points  
-- **🟦 Square:** +2 points  
-- **⚪ Circle:** +1 point  
-- **🔺 Triangle:** Reset score to 0 ❌  
-- **🤍 White Turtle:** Game Over 💀  
+## 🕹️ How to Play
+- Use the **Right Arrow** ⬅️➡️ to move the paddle right.  
+- Use the **Left Arrow** ⬅️⬅️ to move the paddle left.  
+- Catch the falling shapes to earn points.  
+- The game ends when you miss a shape.
 
 ---
 
-## ⚙️ Features
-- Randomly generated shapes, colors, and sizes  
-- Live score tracking at the top of the screen  
-- Game Over screen showing your final score  
-- Easy to play, but tricky to master!  
+## ⭐ Scoring System
+- 🟥 **Square** → +2 points  
+- ⚪ **Circle & others** → +1 point  
+- 🔺 **Triangle** → resets your score to **0**  
+- 🐢 **Turtle (except white)** → +5 points  
 
 ---
 
-## 🚀 Requirements
-- Python 3.x  
-- Turtle (comes built-in with Python, no extra installation needed)  
+## 🏆 Highscore System (New Feature ✨)
+- The game now **keeps track of your best score** even after you close it.  
+- Highscore is stored in a file called **`Highscore.txt`**.  
+- If you beat your highscore, it will be updated automatically.  
 
 ---
-
-## ▶️ Run the Game
-Clone the repo and run:
-
-```bash
-git clone https://github.com/ebrahim-2k11/Catch-me.git
-cd shapes-catcher-game
-python main.py
